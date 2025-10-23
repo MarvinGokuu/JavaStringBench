@@ -1,3 +1,4 @@
+package src.JavaStringBench;
 import javax.swing.JOptionPane;
 
 public class TestRendimiento {
@@ -73,7 +74,7 @@ public class TestRendimiento {
         // Medición final y cálculos
         long finNano = System.nanoTime();
         long tiempoEjecucionNano = finNano - inicioNano;
-        long tiempoEjecucionMillis = tiempoEjecucionNano / 1_000_000; 
+        long tiempoEjecucionMillis = tiempoEjecucionNano / 1_000_000;
         long totalOperaciones = iteraciones * CARGA_TRABAJO;
         
         // **********************************************

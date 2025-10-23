@@ -1,0 +1,59 @@
+# ========================
+# Java Build
+# ========================
+
+# Archivos compilados
+*.class
+# ========================
+# JARs y otros paquetes
+# ========================
+
+# Ignorar todos los JARs, excepto el que queremos subir
+*.jar
+!JavaStringBench.jar
+
+*.war
+*.ear
+
+# Directorios de compilación
+/bin/
+/build/
+/out/
+/dist/
+.output/
+
+# ========================
+# IDEs
+# ========================
+
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Eclipse
+*.classpath
+*.project
+*.settings/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# ========================
+# Archivos temporales
+# ========================
+
+*.class
+*.log
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+
